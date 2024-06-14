@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+root:{
+	--h1: 2.5rem;
+	--h3: 1.5rem;
+	
+}
