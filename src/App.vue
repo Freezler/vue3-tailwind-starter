@@ -1,15 +1,24 @@
 <script setup>
-import Starter from './components/Starter.vue'
+
+
 </script>
 
 <template>
-  <div class="flex flex-col items-center p-0 m-0 antialiased">
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" alt="Vue logo" class="logo vue" />
-    </a>
-    <Starter msg="Vite + Vue + Tailwind" />
-  </div>
-</template>
+    <div id="app">
+      <nav>
+        <router-link to="/">Home</router-link>
+        <router-link to="/about">About</router-link>
+      </nav>
+      <router-view />
+    </div>
+  </template>
+
+  <script>
+export default {
+  name: 'App'
+}
+</script>
+
 
 <style scoped>
 .logo {
