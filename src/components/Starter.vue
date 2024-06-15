@@ -21,8 +21,8 @@ const count = ref(0)
       <p>Todo's sorted on priority</p>
       <ul class="py-1 pl-2 mx-2 my-4 border-2 border-gray-800">
         <li class="line-through text-red-900/50">Add components</li>
-        <li class="text-green-400">Add state Manager</li>
-        <li>Add router</li>
+        <li class="text-green-400">Add vue-router</li>
+        <li>Add state Manager</li>
         <li>Add tests</li>
         <li>Add docs</li>
         <li>Add styling</li>
